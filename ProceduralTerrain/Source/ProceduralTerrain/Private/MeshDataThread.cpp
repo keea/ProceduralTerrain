@@ -13,6 +13,7 @@ MeshDataThread::MeshDataThread(int32 callbackId, FMapSetting mapSetting, MatrixO
     MapSetting = mapSetting;
     MapData = mapData;
     MeshDataThreadInfoQueue = meshDataThreadInfoQueue;
+    Regions = regions;
 }
 
 uint32 MeshDataThread::Run() 
